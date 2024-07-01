@@ -25,4 +25,7 @@ public class PlatformFollower : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(transform.position, waypoint[currentIndex].transform.position, Time.deltaTime * speed);
     }
+
+
+    
 }
